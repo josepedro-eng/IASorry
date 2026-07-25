@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>IASorry</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<audio id="musica" loop>
+    <source src="assets/audio/Justin Bieber - Sorry (PURPOSE  The Movement) - JustinBieberVEVO (youtube).mp3" type="audio/mpeg">
+</audio>
+
+<main class="container">
+    <header>
+        <h1>IASorry</h1>
+        <p>
+            A IA que cria desculpas profissionais para qualquer situação.
+        </p>
+    </header>
+
+    <h2>Escolha uma categoria</h2>
+
+    <div class="categorias">
+        <button class="categoria" data-categoria="trabalho">
+            Trabalho
+        </button>
+
+        <button class="categoria" data-categoria="faculdade">
+            Faculdade
+        </button>
+
+        <button class="categoria" data-categoria="relacionamento">
+            Relacionamento
+        </button>
+
+        <button class="categoria" data-categoria="academia">
+            Academia
+        </button>
+
+        <button class="categoria" data-categoria="familia">
+            Família
+        </button>
+
+    </div>
+
+    <button class="gerar">
+        Gerar desculpa
+    </button>
+
+    <section class="resultado">
+
+        <h3 class="analise">
+            Aguardando análise...
+        </h3>
+
+        <div class="barra-container">
+            <div class="barra"></div>
+        </div>
+
+        <p class="credibilidade">
+            Credibilidade: 0%
+        </p>
+
+        <p class="texto-desculpa">
+            Sua desculpa aparecerá aqui
+        </p>
+
+        <button class="copiar">
+            Copiar desculpa
+        </button>
+
+    </section>
+
+    <section class="historico">
+        <h3>
+            Últimas desculpas
+        </h3>
+
+        <ul class="lista-historico">
+        </ul>
+
+    </section>
+
+    <button class="musica">
+        Tocar música
+    </button>
+
+</main>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
